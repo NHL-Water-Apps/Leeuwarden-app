@@ -37,7 +37,7 @@ var addData = function(data) {
 /**
  * Sorteert de huidige data.
  */
-var sortData = function() {
+var sortData = function(data) {
 	tableData = data;
 
 	tableData.sort(function(a, b) {
