@@ -20,6 +20,17 @@ var makeRow = function(data) {
 };
 
 /**
+ *
+ */
+var makeRows = function(array){
+	var data = [];
+	for(var i = 0; i < array.length; i++){
+		data[i] = makeRow(array[i]);
+	}
+	return data;
+};
+
+/**
  * Voegt een array van data objecten toe aan de tableData array als tableRows.
  * 
  * @param {Object} data
@@ -76,3 +87,4 @@ exports.addData = addData;
 exports.sortData = sortData;
 exports.clearData = clearData;
 exports.getData = getData;
+exports.makeRows = makeRows;
