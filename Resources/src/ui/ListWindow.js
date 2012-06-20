@@ -47,7 +47,7 @@
 		data = VwApp.List.sortData(data);
 		
 		// Stop alles in de table
-		ListWindow.table.setData(VwApp.List.MakeRows(data));
+		ListWindow.table.setData(VwApp.List.makeRows(data));
 	};
 	
 	VwApp.OnLoad.addFn(function() {
