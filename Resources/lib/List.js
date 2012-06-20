@@ -20,7 +20,10 @@ var makeRow = function(data) {
 };
 
 /**
- *
+ *	Maakt van een array een array met tablerows
+ *	
+ *	@param {Array} array
+ *		Een array die tablerows moeten worden
  */
 var makeRows = function(array){
 	var data = [];
